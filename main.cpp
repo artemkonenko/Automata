@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	eNFA machine("kir.txt");
+	eNFA machine("example.txt");
 	machine.print_table();
 
 	cout << "Determine:" << endl;
